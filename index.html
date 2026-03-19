@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metselwerk Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <div class="text-xl font-bold">LOGO</div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#" class="hover:text-red-700">Over mij</a>
+        <a href="#" class="hover:text-red-700">Soorten metselwerk</a>
+        <a href="#" class="hover:text-red-700">Projecten</a>
+        <a href="#" class="hover:text-red-700">Contactformulier</a>
+      </nav>
+      <button class="bg-red-700 text-white px-4 py-2 rounded">Contact</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative h-[500px] flex items-center justify-center text-center text-white">
+    <img src="https://images.unsplash.com/photo-1581092919535-7146ff1f1f10" class="absolute w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 max-w-2xl">
+      <p class="uppercase tracking-widest text-sm">Vakmanschap & kwaliteit</p>
+      <h1 class="text-4xl md:text-5xl font-bold my-4">Jarenlang vakmanschap in metselwerk</h1>
+      <p class="mb-6">Van nieuw metselwerk tot renovatie en herstel. Kwaliteit en strak afgewerkt.</p>
+      <button class="bg-white text-black px-6 py-3 rounded">Neem Contact Op</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" class="rounded-xl shadow" />
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Over mij</h2>
+        <p class="mb-4">Mijn naam is [naam], zelfstandig metselaar met jaren ervaring in de bouw. Van kleine klussen tot grote projecten.</p>
+        <p>Heldere communicatie en kwaliteit staan bij mij centraal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Vakkundig Metselwerk Voor Elk Project</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 border rounded-lg shadow">
+          <h3 class="font-bold text-lg mb-2">Nieuwbouw metselwerk</h3>
+          <p>Voor fundering tot gevel. Strakke afwerking en duurzaamheid.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow">
+          <h3 class="font-bold text-lg mb-2">Renovatie & herstel</h3>
+          <p>Herstel van beschadigd metselwerk met oog voor detail.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow">
+          <h3 class="font-bold text-lg mb-2">Gevel & sierwerk</h3>
+          <p>Decoratief metselwerk voor een unieke uitstraling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Projecten</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow">
+          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994" class="rounded-t" />
+          <div class="p-4">
+            <h3 class="font-bold">Nieuwbouwwoningen</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" class="rounded-t" />
+          <div class="p-4">
+            <h3 class="font-bold">Gevelrenovatie</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow">
+          <img src="https://images.unsplash.com/photo-1523419409543-a5b0d7f3e5a4" class="rounded-t" />
+          <div class="p-4">
+            <h3 class="font-bold">Diverse projecten</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Neem Contact Op</h2>
+        <p>Heeft u een vraag of wilt u een offerte? Neem gerust contact op.</p>
+      </div>
+      <form class="space-y-4">
+        <input type="text" placeholder="Naam" class="w-full border p-3 rounded" />
+        <input type="email" placeholder="E-mail" class="w-full border p-3 rounded" />
+        <input type="text" placeholder="Telefoon" class="w-full border p-3 rounded" />
+        <textarea placeholder="Bericht" class="w-full border p-3 rounded"></textarea>
+        <button class="bg-red-700 text-white px-6 py-3 rounded w-full">Verstuur Bericht</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-red-800 text-white py-6 text-center">
+    <p>© 2026 NBP Agency</p>
+  </footer>
+
+</body>
+</html>
